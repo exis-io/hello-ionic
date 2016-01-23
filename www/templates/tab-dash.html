@@ -1,0 +1,15 @@
+<ion-view view-title="Exis+Ionic">
+  <ion-content class="padding">
+    <img class="exis-logo" src="img/exis-logo.png" alt="exisLogo">
+    <h2>Welcome to Exis+Ionic</h2>
+    <p>
+    This app shows how simple communication between clients and backend can be, enter text below and press <code>Send</code>.
+    </p>
+    <input type="text" placeholder="Hello World!" ng-model="input">
+    <button class="button button-block button-calm" ng-click="echo(input)">Send</button>
+    <br /><br />
+    <p>
+    Backend says: {{response}}
+    </p>
+  </ion-content>
+</ion-view>
