@@ -24,8 +24,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 })
 
 .config(function($riffleProvider){
-    $riffleProvider.SetFabricProduction();
-    $riffleProvider.SetDomain("REPLACEME");
+    $riffleProvider.setDomain("REPLACEME");
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
